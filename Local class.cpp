@@ -29,16 +29,14 @@ void g()
     cout << ab.get();
 }
 
-A class definition can also be defined inside a function
-definition, called a “local class”. Rules that apply to the
-use of local classes:
- Global variables declared above the function can
-be used with the scope resolution operator "::".
- Static variables declared inside the function can
-also be used.
+/*
+A class definition can also be defined inside a function definition, called a “local class”. 
+Rules that apply to the use of local classes:
+
+ Global variables declared above the function can be used with the scope resolution operator "::".
+ Static variables declared inside the function can also be used.
  Automatic local variables cannot be used.
  It cannot have static data members.
- Member functions must be defined inside the local
-classes.
- Enclosing functions cannot access the private
-members of a local class.
+ Member functions must be defined inside the local classes.
+ Enclosing functions cannot access the private members of a local class.
+*/
